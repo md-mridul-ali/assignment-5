@@ -76,6 +76,9 @@
 .copy p{
     margin-right: 5px;
 }
+.copy-btn:hover{
+    cursor: pointer;
+}
 /* banner section style */
 .banner-section{
     width: 100%;
