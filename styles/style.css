@@ -1,39 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100px;
-    background-color:antiquewhite;
+    background-color: #FFFFFF;
 }
-.left-div{
+
+.left-div {
     display: flex;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 60px;
 }
-.left-div img{
+
+.left-div img {
     margin-right: 10px;
 }
-.left-div h1{
+
+.left-div h1 {
     font-size: larger;
     font-weight: 800;
     color: #006747;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.right-div{
+
+.right-div {
     display: flex;
     justify-content: space-evenly;
 }
-.heart{
+
+.heart {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgba(209, 236, 255, 0.692);
     margin-right: 20px;
     width: 123px;
@@ -41,28 +49,34 @@
     border-radius: 40px;
     padding: 14px 35.5px;
 }
-.emergency-hearts:hover{
-   cursor: pointer;
+
+.emergency-hearts:hover {
+    cursor: pointer;
 }
-.heart p{
+
+.heart p {
     margin-right: 15px;
-    font-size:larger;
+    font-size: larger;
 }
-.coin{
+
+.coin {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(209, 236, 255, 0.692);
     margin-right: 20px;
     width: 123px;
     height: 52px;
     border-radius: 40px;
-    padding: 14px 35.5px;
+    padding: 14px 35px;
 }
-.coin p{
+
+.coin p {
     margin-right: 15px;
-    font-size:larger;
+    font-size: larger;
 }
-.copy{
+
+.copy {
     display: flex;
     align-items: center;
     margin-right: 61px;
@@ -71,20 +85,27 @@
     width: 127px;
     height: 52px;
     border-radius: 40px;
-    padding: 14px 36px; 
+    padding: 14px 36px;
 }
-.copy p{
+.copy:hover{
+    background-color: rgba(128, 128, 128, 0.635);
+    cursor: pointer;
+}
+.copy p {
     margin-right: 5px;
 }
-.copy-btn:hover{
+
+.copy-btn:hover {
     cursor: pointer;
 }
-.call-button:hover{
-    background-color: gray;
+
+.call-button:hover {
+    background-color: rgba(128, 128, 128, 0.635);
     cursor: pointer;
 }
+
 /* banner section style */
-.banner-section{
+.banner-section {
     width: 100%;
     height: 239px;
     display: flex;
@@ -92,55 +113,66 @@
     align-items: center;
     flex-direction: column;
 }
-.banner-section h1{
+
+.banner-section h1 {
     font-weight: 800;
     font-size: 40px;
     color: #FFFFFF;
     margin-top: 12px;
 }
-.banner-section p{
+
+.banner-section p {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
     margin-top: 11px;
 }
+
 /* emergency categories section */
-.emergency-categories-section{
+.emergency-categories-section {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     height: 850px;
 }
-.emergency-service-section{
+
+.emergency-service-section {
     background-color: #FFFFFF;
 }
-.services{
+
+.services {
     width: 320px;
     height: 250px;
-    background-color:antiquewhite;
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.icon{
+
+.icon {
     display: flex;
     justify-content: space-between;
 
 }
-.services h1{
+
+.services h1 {
     font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
 }
-.services p{
+
+.services p {
     font-size: 16px;
     font-weight: 400;
 }
-.contact-number{
+
+.contact-number {
     font-size: 24px;
     font-weight: 800;
     margin-top: 20px;
 }
-.categories{
+
+.categories {
     height: 25px;
     width: 70px;
     background-color: rgba(128, 128, 128, 0.594);
@@ -148,47 +180,131 @@
     text-align: center;
     margin-top: 10px;
 }
-.btns{
+
+.btns {
     display: flex;
     justify-content: space-between;
 }
-.btns button{
+
+.btns button {
     margin-top: 10px;
     border-radius: 8px;
 }
-.call-btn{
+
+.call-btn {
     color: #FFFFFF;
 }
-.copy-btn{
+
+.copy-btn {
     border: 2px solid rgba(128, 128, 128, 0.628);
 }
 
 /* call history style */
-#call-history-parent{
+#call-history-parent {
     width: 350px;
-     height: 825px;
-      border-radius: 10px;
-   border: 2px solid gray;
+    height: 825px;
+    border-radius: 10px;
     padding: 20px;
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.call-history-section{
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 30px;
-   /* padding: 20px;
-   width: 350px;
-   height: 825px;
-   border-radius: 10px;
-   border: 2px solid gray; */
-   
+
+.call-history-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
-.call-history-section-left-div{
+
+.call-history-section-left-div {
     font-weight: 600;
 }
-.call-history-section-right-div .clear-btn{
+
+.call-history-section-right-div .clear-btn {
     width: 100px;
     height: 30px;
     background-color: #00A63E;
     border-radius: 40px;
+}
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.left-div{
+    padding-left: 0px;
+}
+.right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+} 
+.heart,.coin, .copy{
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 40px;
+} 
+.coin p{
+    margin-left: 5px;
+}
+/* .coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    width: 100px;
+    height: 45px;
+    border-radius: 40px;
+    padding: 14px 35.5px;
+} */
+
+.emergency-service-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .emergency-categories-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+ #call-history-parent{
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ .banner-section{
+    margin-top: 100px;
+ }
+ .banner-section h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.banner-section p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    text-align: center;
+}
+ .copy{
+    margin-right: 0px;
+ }
+.copy p {
+    margin-right: 0px;
+}
+.coin p{
+    margin-right: 0px;
+}
 }
