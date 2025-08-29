@@ -243,7 +243,7 @@
     align-items: center;
     margin-bottom: 100px;
 } 
-.heart,.coin, .copy{
+.heart, .coin, .copy{
     width: 100px;
     height: 45px;
     display: flex;
@@ -252,36 +252,29 @@
     margin-right: 5px;
     border-radius: 40px;
 } 
-.coin p{
-    margin-left: 5px;
+.coin #coin-value{
+    margin-right: 10px;
 }
-/* .coin {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 5px;
-    width: 100px;
-    height: 45px;
-    border-radius: 40px;
-    padding: 14px 35.5px;
-} */
-
+.copy #copy-count {
+    margin-right: 10px;
+}
 .emergency-service-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* .emergency-categories-section{
+.parent-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+}
  #call-history-parent{
     margin-top: 20px;
-    margin-left: 20px;
+    margin-bottom: 20px;
  }
+
  .banner-section{
     margin-top: 100px;
  }
