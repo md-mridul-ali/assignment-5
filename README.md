@@ -33,10 +33,8 @@
 ### 🔹 Create and Insert a New Element into the DOM  
 
 **Step 1: Create a new element**  
-```javascript
 const newElement = document.createElement("div");
 **Insert a new element into the DOM**
-```javascript
 const body = document.getElementById("body");
 body.appendChild(newElement);
 
