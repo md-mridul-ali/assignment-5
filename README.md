@@ -34,6 +34,7 @@
 
 **Create a new element**  
 const newElement = document.createElement("div");
+
 **Insert a new element into the DOM**
 const body = document.getElementById("body");
 body.appendChild(newElement);
